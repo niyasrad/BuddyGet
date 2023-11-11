@@ -1,0 +1,41 @@
+# Ignore version control system files and directories
+.git
+.svn
+
+# Ignore Node.js-specific files
+node_modules
+
+# Ignore development and test files
+*.log
+*.md
+*.test.js
+*.spec.js
+.cypress
+coverage
+debug.log
+.eslintignore
+.eslintrc
+.jest
+.local
+.nyc_output
+.swagger
+.vscode
+
+# Ignore build and packaging tools
+bower.json
+package-lock.json
+yarn.lock
+webpack.config.js
+tsconfig.json
+Dockerfile
+.dockerignore
+
+# Ignore Docker-related files
+.dockerignore
+.dockerignore.example
+
+# Ignore other files and directories
+.cache
+.build
+.idea
+.tmp
